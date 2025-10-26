@@ -5,8 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    body{
+        text-align: center;
+        background-color: aqua;
+    }
+
+    p{
+        font-weight: bold;
+    }
+
+</style>
 <body>
-    
+    <h1> Admission Eligibility Checker</h1>
+    <p>Enter your exam score to check if you're eligible for admission</p>
+
+    <input type="number" id="scoreInput" placeholder="Enter score" >
+    <button onclick="checkEligibility()">Check</button>
+
+    <p id="result" style="font-weight: bold;"></p>
+
 
 <script src="script.js"></script>
 </body>
