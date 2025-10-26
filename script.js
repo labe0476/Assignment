@@ -2,9 +2,9 @@ function checkEligibility() {
   var score = document.getElementById("scoreInput").value; 
 
   if (score >= 180) {
-    document.getElementById("result").textContent = "Congratulation You Are Eligible For Admission";
+    document.getElementById("result").innerHTML = "Congratulation You Are Eligible For Admission";
   } else {
-    document.getElementById("result").textContent =
+    document.getElementById("result").innerHTML =
       " Not Eligible for Admission";
   }
 }
